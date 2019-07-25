@@ -1,0 +1,21 @@
+server:
+  port: 8088
+  servlet:
+    context-path: /
+
+#��ʾ������ֱ��ΪSpring����������
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://localhost:3306/sduty_test?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+      username: root
+      password: root
+      type: com.alibaba.druid.pool.DruidDataSource
+      connectionProperties: druid.stat.mergeSql=true
+
+mybatis:  #mybatyis������
+  configuration:
+    default-fetch-size: 500
+    default-statement-timeout: 20
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml   #ָ��mapper�������ļ���·����mapper�ļ����µ����� xml�ļ���
