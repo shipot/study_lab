@@ -1,15 +1,12 @@
 package com.zx.starter.controller.users;
 
-import com.zx.common.utils.HttpClientUtil;
 import com.zx.domain.po.users.Users;
 import com.zx.service.core.users.UsersService;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.List;
 
 @Slf4j
 @RestController
@@ -18,18 +15,22 @@ public class UsersController {
     @Resource
     private UsersService usersService;
 
-    @RequestMapping("/getUser")
-    public Users getUser(Integer id){
-        String uri = "http://172.16.1.128:8088/user/getAgain";
-        Map<String,String> parameter = new HashMap<>(1);
-        parameter.put("id", "2");
-        System.out.println(HttpClientUtil.doGet(uri,parameter));
-        return usersService.selectAll(id);
+    @GetMapping("/getAll")
+    public List<Users> selectAll(){
+        return usersService.selectAll();
     }
 
-    @RequestMapping("/getAgain")
-    public Users getAgain(Integer id){
-        return usersService.selectAll(id);
+    @GetMapping("/getUser")
+    public Users getUser(Integer id){
+        return usersService.selectById(id);
+    }
+
+    @PostMapping("/addUser")
+    public Boolean addUser(@RequestBody Users users){
+        int b = usersService.addUser(users);
+        if (b!=1)
+            return false;
+        return true;
     }
 
 
