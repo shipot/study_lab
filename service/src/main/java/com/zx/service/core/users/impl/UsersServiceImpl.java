@@ -1,6 +1,5 @@
 package com.zx.service.core.users.impl;
 
-import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.zx.dao.mapper.users.UsersMapper;
 import com.zx.domain.po.users.Users;
 import com.zx.service.core.users.UsersService;
