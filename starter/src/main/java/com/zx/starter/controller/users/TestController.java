@@ -3,6 +3,11 @@ package com.zx.starter.controller.users;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+
 /**
  * @author zhouxiong
  * @Title: TestController
@@ -14,15 +19,12 @@ import org.junit.Test;
 public class TestController {
 
     @Test
-    public static void main(String[] args) {
-
-        String s = "dahdkad";
-        System.out.println(s.lastIndexOf("a"));
-        System.out.println(s.indexOf("a"));
-        System.out.println(s.substring(s.lastIndexOf("a")));
-        System.out.println(s.substring(s.indexOf("a")));
-
-
+    public static void main(String[] args) throws IOException{
+        File file = new File("e:/ces/ss.txt");
+        InputStream fileInputStream = new FileInputStream(file);
+        byte[] bytes = new byte[(int) file.length()];
+        int b = fileInputStream.read(bytes);
+        System.out.println(b);
     }
 
 }
