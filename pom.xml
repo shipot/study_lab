@@ -46,6 +46,7 @@
         <lombok.version>1.18.0</lombok.version>
         <pagehelper.version>5.0.0</pagehelper.version>
         <mysql.version>8.0.13</mysql.version>
+        <springboot.jpa.version>2.1.6</springboot.jpa.version>
         <druid.start.version>1.1.10</druid.start.version>
         <pagehelper.boot.version>1.2.5</pagehelper.boot.version>
         <dataformat.yaml.version>2.9.6</dataformat.yaml.version>
@@ -91,6 +92,13 @@
                 <version>${mysql.version}</version>
                 <scope>runtime</scope>
             </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-jpa</artifactId>
+                <version>${springboot.jpa.version}</version>
+            </dependency>
+
             <!--    测试日志-->
             <dependency>
                 <groupId>org.springframework.boot</groupId>

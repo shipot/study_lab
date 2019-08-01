@@ -1,4 +1,4 @@
-package com.zx.starter.controller.users;
+package com.zx.starter.controller.test;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;

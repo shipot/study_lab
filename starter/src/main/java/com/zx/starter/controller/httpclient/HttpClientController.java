@@ -1,4 +1,4 @@
-package com.zx.starter.controller.users;
+package com.zx.starter.controller.httpclient;
 
 import com.zx.common.utils.HttpClientUtil;
 import org.springframework.web.bind.annotation.*;
