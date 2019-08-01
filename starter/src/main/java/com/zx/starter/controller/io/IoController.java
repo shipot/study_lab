@@ -1,4 +1,4 @@
-package com.zx.starter.controller.test;
+package com.zx.starter.controller.io;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
@@ -7,13 +7,13 @@ import java.io.*;
 
 /**
  * @author zhouxiong
- * @Title: TestController
+ * @Title: IoController
  * @ProjectName study_lab
  * @Description: TODO
  * @date 2019/7/3010:05
  */
 @Slf4j
-public class TestController {
+public class IoController {
 
     @Test
     public static void main(String[] args) throws IOException{
