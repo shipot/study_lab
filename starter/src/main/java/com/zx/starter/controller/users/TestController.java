@@ -3,10 +3,7 @@ package com.zx.starter.controller.users;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 
 /**
  * @author zhouxiong
@@ -20,11 +17,35 @@ public class TestController {
 
     @Test
     public static void main(String[] args) throws IOException{
-        File file = new File("e:/ces/ss.txt");
-        InputStream fileInputStream = new FileInputStream(file);
-        byte[] bytes = new byte[(int) file.length()];
-        int b = fileInputStream.read(bytes);
-        System.out.println(b);
+        //OutPut();
+        InPut();
     }
+    public static void OutPut() throws IOException{
+        byte[] bytes = InPut();
+        FileOutputStream out = new FileOutputStream(new File("e:/ces/tt.txt"));
+        PrintStream printStream = new PrintStream(out);
+        printStream.println("zhouxiong");
+        out.write(bytes);
+        printStream.close();
+        out.close();
+    }
+
+
+    public static byte[] InPut() throws IOException{
+
+        File file = new File("e:/ces/ss.txt");
+        InputStream in = new FileInputStream(file);
+        System.out.println(file.length());
+        byte[] bytes = new byte[(int)file.length()];
+        int len = in.read(bytes);
+        int i = 0;
+        while (bytes.length>0 && i<len){
+            System.out.println(bytes[i]);
+            i++;
+        }
+        in.close();
+        return bytes;
+    }
+
 
 }
