@@ -1,11 +1,10 @@
 package com.zx.starter.controller.quartz;
 
+import com.zx.starter.controller.date.DateTest;
+import com.zx.starter.controller.encoding.Ascll;
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 /**
  * @author zhouxiong
@@ -16,9 +15,7 @@ import java.util.Date;
  */
 public class MyJob implements Job {
     @Override
-    public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd HH:mm:ss");
-        String nowTime = sdf.format(new Date());
-        System.out.println("MyJobA -- 时间：" + nowTime);
+    public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException{
+        System.out.println(Ascll.stringToASCII("我是一个字符串"));
     }
 }

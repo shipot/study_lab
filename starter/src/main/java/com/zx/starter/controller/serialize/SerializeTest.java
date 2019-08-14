@@ -2,6 +2,7 @@ package com.zx.starter.controller.serialize;
 
 import com.alibaba.fastjson.JSON;
 import com.zx.domain.po.users.Users;
+import org.junit.Test;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.ComponentScan;
 
@@ -17,6 +18,7 @@ import org.springframework.context.annotation.ComponentScan;
 @MapperScan(basePackages = "com.zx.dao.mapper")
 public class SerializeTest {
 
+    @Test
     public static void main(String[] args) {
         System.out.println(serialize());
         System.out.println(deuserialize());
