@@ -104,6 +104,13 @@
                 <version>${springboot.jpa.version}</version>
             </dependency>
 
+            <!-- quartz定时任务 -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-quartz</artifactId>
+                <version>${springboot.version}</version>
+            </dependency>
+
             <!--    测试日志-->
             <dependency>
                 <groupId>org.springframework.boot</groupId>

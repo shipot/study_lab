@@ -7,11 +7,38 @@ server:
 spring:
   datasource:
     druid:
-      url: jdbc:mysql://localhost:3306/sduty_test?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+      url: jdbc:mysql://localhost:3306/study_lab?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
       username: root
-      password: root
+      password: 123456
       type: com.alibaba.druid.pool.DruidDataSource
       connectionProperties: druid.stat.mergeSql=true
+  jpa:
+    show-sql: true
+
+  ######## quartz配置  ########
+  quartz:
+    properties:
+      org:
+        quartz:
+          scheduler:
+            instanceName: clusteredScheduler
+            instanceId: AUTO
+          jobStore:
+            class: org.quartz.impl.jdbcjobstore.JobStoreTX
+            driverDelegateClass: org.quartz.impl.jdbcjobstore.StdJDBCDelegate
+            tablePrefix: QRTZ_
+            isClustered: false
+            clusterCheckinInterval: 10000
+            useProperties: false
+          threadPool:
+            class: org.quartz.simpl.SimpleThreadPool
+            threadCount: 10
+            threadPriority: 5
+            threadsInheritContextClassLoaderOfInitializingThread: true
+    #数据库方式
+    job-store-type: jdbc
+
+
 
 mybatis:  #mybatyis������
   configuration:

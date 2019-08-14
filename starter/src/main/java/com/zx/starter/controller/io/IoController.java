@@ -16,10 +16,11 @@ import java.io.*;
 public class IoController {
 
     @Test
-    public static void main(String[] args) throws IOException{
-        //OutPut();
-        InPut();
+    public static void main(String[] args) throws IOException {
+        OutPut();
+
     }
+
     public static void OutPut() throws IOException{
         byte[] bytes = InPut();
         FileOutputStream out = new FileOutputStream(new File("e:/ces/tt.txt"));
@@ -29,7 +30,6 @@ public class IoController {
         printStream.close();
         out.close();
     }
-
 
     public static byte[] InPut() throws IOException{
 
@@ -47,5 +47,5 @@ public class IoController {
         return bytes;
     }
 
-
 }
+

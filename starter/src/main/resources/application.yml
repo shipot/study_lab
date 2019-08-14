@@ -3,19 +3,46 @@ server:
   servlet:
     context-path: /
 
-#±íÊ¾¸ÃÅäÖÃÖ±½ÓÎªSpringÈİÆ÷¸ºÔğ´¦Àí
+#ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö±ï¿½ï¿½ÎªSpringï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 spring:
   datasource:
     druid:
-      url: jdbc:mysql://localhost:3306/sduty_test?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+      url: jdbc:mysql://localhost:3306/study_lab?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
       username: root
-      password: root
+      password: 123456
       type: com.alibaba.druid.pool.DruidDataSource
       connectionProperties: druid.stat.mergeSql=true
+  jpa:
+    show-sql: true
 
-mybatis:  #mybatyisµÄÅäÖÃ
+  ######## quartzé…ç½®  ########
+  quartz:
+    properties:
+      org:
+        quartz:
+          scheduler:
+            instanceName: clusteredScheduler
+            instanceId: AUTO
+          jobStore:
+            class: org.quartz.impl.jdbcjobstore.JobStoreTX
+            driverDelegateClass: org.quartz.impl.jdbcjobstore.StdJDBCDelegate
+            tablePrefix: QRTZ_
+            isClustered: false
+            clusterCheckinInterval: 10000
+            useProperties: false
+          threadPool:
+            class: org.quartz.simpl.SimpleThreadPool
+            threadCount: 10
+            threadPriority: 5
+            threadsInheritContextClassLoaderOfInitializingThread: true
+    #æ•°æ®åº“æ–¹å¼
+    job-store-type: jdbc
+
+
+
+mybatis:  #mybatyisï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
   configuration:
     default-fetch-size: 500
     default-statement-timeout: 20
 mybatis-plus:
-  mapper-locations: classpath:mapper/*.xml   #Ö¸¶¨mapperµÄÅäÖÃÎÄ¼şµÄÂ·¾¶ÊÇmapperÎÄ¼ş¼ĞÏÂµÄËùÓĞ xmlÎÄ¼ş¡£
+  mapper-locations: classpath:mapper/*.xml   #Ö¸ï¿½ï¿½mapperï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½mapperï¿½Ä¼ï¿½ï¿½ï¿½ï¿½Âµï¿½ï¿½ï¿½ï¿½ï¿½ xmlï¿½Ä¼ï¿½ï¿½ï¿½

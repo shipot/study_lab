@@ -28,9 +28,7 @@ public class UsersController {
     @PostMapping("/addUser")
     public Boolean addUser(@RequestBody Users users){
         int b = usersService.addUser(users);
-        if (b!=1)
-            return false;
-        return true;
+        return b==1?true:false;
     }
 
 
