@@ -61,7 +61,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.zx.starter.controller.main.StarterApplication</mainClass>
+                    <mainClass>com.zx.starter.main.StarterApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>

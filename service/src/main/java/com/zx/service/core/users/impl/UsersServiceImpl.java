@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.Map;
 
 @Service
 public class UsersServiceImpl implements UsersService {
@@ -27,5 +28,12 @@ public class UsersServiceImpl implements UsersService {
     @Override
     public int addUser(Users users) {
         return usersMapper.insert(users);
+    }
+
+    @Override
+    public List<Map<String, Object>> selectMap() {
+        List<Map<String, Object>> list = usersMapper.selectMap();
+        System.out.println(list);
+        return list;
     }
 }

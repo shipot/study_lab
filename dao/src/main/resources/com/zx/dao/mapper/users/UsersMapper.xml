@@ -4,4 +4,10 @@
 <select id="selectAll"  resultType="com.zx.domain.po.users.Users">
     select * from users
 </select>
+
+
+    <select id="selectMap" resultType="java.util.HashMap">
+        select username name,id
+        from users
+    </select>
 </mapper>

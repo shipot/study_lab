@@ -17,6 +17,9 @@ public class DateTest {
     @Test
     public static void main(String[] args) {
         System.out.println(LocalTime.now());
-        System.out.println(LocalDate.now());
+        String td = LocalDate.now().toString();
+        String zd = LocalDate.now().minusDays(7).toString();
+
+        System.out.println(td+"——" +zd);
     }
 }
