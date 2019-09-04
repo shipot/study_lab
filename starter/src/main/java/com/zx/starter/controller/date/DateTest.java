@@ -2,8 +2,11 @@ package com.zx.starter.controller.date;
 
 import org.junit.Test;
 
-import java.time.LocalDate;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.util.Date;
 
 /**
  * @author zhouxiong
@@ -16,10 +19,8 @@ public class DateTest {
 
     @Test
     public static void main(String[] args) {
-        System.out.println(LocalTime.now());
-        String td = LocalDate.now().toString();
-        String zd = LocalDate.now().minusDays(7).toString();
+        System.out.println(TimeEnum.getValue(LocalTime.now()));
 
-        System.out.println(td+"——" +zd);
     }
+
 }

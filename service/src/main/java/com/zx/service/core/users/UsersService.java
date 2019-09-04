@@ -4,12 +4,13 @@ import com.zx.domain.po.users.Users;
 
 import java.util.List;
 import java.util.Map;
+import java.util.function.Consumer;
 
 public interface UsersService {
 
   List<Users> selectAll();
 
-  Users selectById(Integer id);
+  Users selectById(Integer id, Consumer<Users> templateMethod);
 
   int addUser(Users users);
 

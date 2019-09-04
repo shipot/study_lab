@@ -2,6 +2,7 @@ package com.zx.starter.controller.user;
 
 import com.zx.domain.po.users.Users;
 import com.zx.service.core.users.UsersService;
+import com.zx.starter.controller.aspect.AspectTest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
@@ -30,9 +31,12 @@ public class UsersController {
         return usersService.selectAll();
     }
 
+    @AspectTest
     @GetMapping("/getUser")
     public Users getUser(Integer id){
-        return usersService.selectById(id);
+        Users users = usersService.selectById(id,u -> u.setPassword("000"));
+        System.out.println(users);
+        return users;
     }
 
     @PostMapping("/addUser")
@@ -40,23 +44,9 @@ public class UsersController {
         int b = usersService.addUser(users);
         return b==1?true:false;
     }
-
     @GetMapping("/getList")
     public  List<Map<String,Object>> getList(){
-
         return usersService.selectMap();
     }
-
-    @GetMapping("/test")
-    public Map<String,Integer> test(){
-
-        Map<String,Integer> map = new HashMap<>();
-        map.put("sdasd", 1);
-        map.put("dasda", 2);
-        return map;
-
-    }
-
-
 
 }

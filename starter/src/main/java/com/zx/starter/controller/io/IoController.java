@@ -1,6 +1,7 @@
 package com.zx.starter.controller.io;
 
 import lombok.extern.slf4j.Slf4j;
+import org.apache.ibatis.javassist.bytecode.stackmap.TypeData;
 import org.junit.Test;
 
 import java.io.*;
@@ -15,15 +16,14 @@ import java.io.*;
 @Slf4j
 public class IoController {
 
-    @Test
     public static void main(String[] args) throws IOException {
-        OutPut();
+        ishidden();
 
     }
 
     public static void OutPut() throws IOException{
         byte[] bytes = InPut();
-        FileOutputStream out = new FileOutputStream(new File("e:/ces/tt.txt"));
+        FileOutputStream out = new FileOutputStream(new File("e:/ces"));
         PrintStream printStream = new PrintStream(out);
         printStream.println("zhouxiong");
         out.write(bytes);
@@ -47,5 +47,14 @@ public class IoController {
         return bytes;
     }
 
+    public static File[] ishidden(){
+        File[] hiddenFiles = new File("e:/ces").listFiles(File::isHidden);
+
+        System.out.println(hiddenFiles.length);
+        for(int i =0; i<hiddenFiles.length ; i++){
+            System.out.println(hiddenFiles[i]);
+        }
+        return hiddenFiles;
+    }
 }
 

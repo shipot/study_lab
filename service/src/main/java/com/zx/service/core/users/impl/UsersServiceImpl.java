@@ -6,8 +6,10 @@ import com.zx.service.core.users.UsersService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.function.Consumer;
 
 @Service
 public class UsersServiceImpl implements UsersService {
@@ -21,8 +23,10 @@ public class UsersServiceImpl implements UsersService {
     }
 
     @Override
-    public Users selectById(Integer id) {
-        return usersMapper.selectById(id);
+    public Users selectById(Integer id, Consumer<Users> templateMethod) {
+        Users users = usersMapper.selectById(id);
+        templateMethod.accept(users);
+        return users;
     }
 
     @Override

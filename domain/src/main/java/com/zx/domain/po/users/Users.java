@@ -9,7 +9,7 @@ import lombok.Data;
 import java.util.Date;
 
 @Data
-@TableName("user")
+@TableName("users")
 public class Users {
     
     @TableId(type = IdType.AUTO)
@@ -20,4 +20,8 @@ public class Users {
     private String password;
 
     private String time;
+
+    private Date createTime;
+
+    private Date updateTime;
 }
