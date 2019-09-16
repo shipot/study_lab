@@ -23,9 +23,8 @@ public class UsersServiceImpl implements UsersService {
     }
 
     @Override
-    public Users selectById(Integer id, Consumer<Users> templateMethod) {
+    public Users selectById(Integer id) {
         Users users = usersMapper.selectById(id);
-        templateMethod.accept(users);
         return users;
     }
 

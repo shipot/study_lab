@@ -1,4 +1,4 @@
-package com.zx.starter.controller.lambda;
+package com.zx.starter.controller.java8;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -25,7 +25,7 @@ public class test {
             }
         });
         /**
-         * lambda
+         * java8
          */
         list.sort((a1,a2) ->a1.getWeight().compareTo(a2.getWeight()));
         /**

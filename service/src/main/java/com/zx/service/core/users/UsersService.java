@@ -10,7 +10,7 @@ public interface UsersService {
 
   List<Users> selectAll();
 
-  Users selectById(Integer id, Consumer<Users> templateMethod);
+  Users selectById(Integer id);
 
   int addUser(Users users);
 

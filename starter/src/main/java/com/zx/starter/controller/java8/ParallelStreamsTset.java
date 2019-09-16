@@ -1,10 +1,9 @@
-package com.zx.starter.controller.lambda;
+package com.zx.starter.controller.java8;
 
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.ForkJoinTask;
 import java.util.function.Function;
 import java.util.stream.LongStream;
-import java.util.stream.Stream;
 
 /**
  * @author zhouxiong

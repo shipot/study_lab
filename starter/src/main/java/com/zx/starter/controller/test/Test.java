@@ -4,6 +4,7 @@ import com.zx.service.core.users.UsersService;
 
 import javax.annotation.Resource;
 import java.text.NumberFormat;
+import java.util.*;
 
 /**
  * @author zhouxiong
@@ -20,7 +21,7 @@ public class Test {
         DecimalFormat df = new DecimalFormat("0.00");
         System.out.println(Double.valueOf(df.format((float) b/a)));*/
 
-        //这里的数后面加“D”是表明它是Double类型，否则相除的话取整，无法正常使用
+        /*//这里的数后面加“D”是表明它是Double类型，否则相除的话取整，无法正常使用
         double percent = 50.5D / 150D;
 
         //输出一下，确认你的小数无误
@@ -33,7 +34,39 @@ public class Test {
         nt.setMinimumFractionDigits(2);
 
         //最后格式化并输出
-        System.out.println("百分数：" + nt.format(percent));
+        System.out.println("百分数：" + nt.format(percent));*/
+        Long[] m = {3L,4L};
+        Long[] n = null;
+        List<Long> c =null;
+        c = new ArrayList<>();
 
+        List<Long> a = new ArrayList<>(Arrays.asList(m));
+        List<Long> b = new ArrayList<>(Arrays.asList(n));
+       a.removeAll(b);
+        for (Long i : a){
+            System.out.println(i);
+        }
+        /*for (Long l: occur(m, n)){
+            System.out.println(l);
+        }*/
+    }
+    /**
+     * 求差集
+     *
+     * @param m
+     * @param n
+     * @return
+     */
+    private static Long[] occur(Long[] m, Long[] n)
+    {
+        Set<Long> set = new HashSet<>(Arrays.asList(m));
+        Set<Long> result = new HashSet<>();
+        for (Long i :  n)
+        {
+            if (set.contains(i)) continue;
+            else result.add(i);
+        }
+        Long[] arr = {};
+        return result.toArray(arr);
     }
 }

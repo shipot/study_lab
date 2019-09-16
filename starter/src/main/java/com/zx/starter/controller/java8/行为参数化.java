@@ -1,8 +1,6 @@
-package com.zx.starter.controller.lambda;
+package com.zx.starter.controller.java8;
 
 import java.util.*;
-import java.util.function.Predicate;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 import static java.util.stream.Collectors.*;
@@ -18,6 +16,10 @@ public class 行为参数化 {
         List<Apple> appleList = Arrays.asList(new Apple(68,"green"),
                 new Apple(57,"red"),
                 new Apple(108,"pink"));
+
+        Optional<List<Apple>> apples = Optional.of(appleList);
+
+        System.out.println(apples);
 
         long fastest = Long.MAX_VALUE;
         int i = Integer.MIN_VALUE;

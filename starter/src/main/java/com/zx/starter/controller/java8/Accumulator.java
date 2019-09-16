@@ -1,4 +1,4 @@
-package com.zx.starter.controller.lambda;
+package com.zx.starter.controller.java8;
 
 /**
  * @author zhouxiong
