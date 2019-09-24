@@ -13,9 +13,9 @@ import org.quartz.JobExecutionException;
  * @Description: TODO
  * @date 2019/8/1411:59
  */
-public class MyJob implements Job {
-    @Override
+public class MyJob/* implements Job */{
+  /*  @Override
     public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException{
         System.out.println(Ascll.stringToASCII("我是一个字符串"));
-    }
+    }*/
 }

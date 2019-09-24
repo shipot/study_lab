@@ -13,7 +13,7 @@ import org.quartz.impl.StdSchedulerFactory;
  */
 public class QuartzTest {
 
-    public static void main(String[] args) {
+  /*  public static void main(String[] args) {
         try {
             // 构建Scheduler
             Scheduler scheduler = StdSchedulerFactory.getDefaultScheduler();
@@ -36,5 +36,5 @@ public class QuartzTest {
         } catch (SchedulerException e) {
             throw new RuntimeException(e);
         }
-    }
+    }*/
 }

@@ -11,7 +11,7 @@ import java.util.Date;
  * @date 2019/8/1414:13
  */
 public class Test {
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
         System.out.println(getCronExpr(new Date()));
     }
 
@@ -32,5 +32,5 @@ public class Test {
                 .append(month).append(" ")
                 .append("?").append(" ")
                 .append(year).toString();
-    }
+    }*/
 }
