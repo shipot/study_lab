@@ -1,12 +1,12 @@
 server:
-  port: 8088
+  port: 8090
   servlet:
     context-path: /
 
 spring:
   datasource:
     druid:
-      url: jdbc:mysql://localhost:3306/study_lab?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+      url: jdbc:mysql://172.16.1.160:3306/study_lab?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
       username: root
       password: 123456
       type: com.alibaba.druid.pool.DruidDataSource
