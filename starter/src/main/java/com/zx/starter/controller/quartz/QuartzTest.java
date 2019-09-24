@@ -13,8 +13,6 @@ import org.quartz.impl.StdSchedulerFactory;
  */
 public class QuartzTest {
 
-
-    @Test
     public static void main(String[] args) {
         try {
             // 构建Scheduler

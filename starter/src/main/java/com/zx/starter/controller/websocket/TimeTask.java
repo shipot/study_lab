@@ -19,7 +19,7 @@ import java.util.concurrent.CopyOnWriteArraySet;
     @EnableScheduling
     public class TimeTask
     {
-        private static Logger logger = LoggerFactory.getLogger(TimeTask.class);
+        /*private static Logger logger = LoggerFactory.getLogger(TimeTask.class);
 
         @Scheduled(cron = "0/1 * * * * ?")   //每分钟执行一次
         public void test(){
@@ -36,6 +36,6 @@ import java.util.concurrent.CopyOnWriteArraySet;
             });
 
             System.err.println("/n 定时任务完成.......");
-        }
+        }*/
 
     }
