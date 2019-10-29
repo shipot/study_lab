@@ -32,7 +32,7 @@
         <commons-httpclient.version>3.1</commons-httpclient.version>
         <commons-collections.version>3.2.1</commons-collections.version>
         <commons-codec.version>1.9</commons-codec.version>
-        <commons-fileupload.version>1.3.2</commons-fileupload.version>
+        <commons-fileupload.version>1.3.3</commons-fileupload.version>
         <mybaitsplus.version>3.0.4</mybaitsplus.version>
         <c3p0.version>0.9.1.2</c3p0.version>
         <aliyun-sdk-oss.version>2.8.3</aliyun-sdk-oss.version>
