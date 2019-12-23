@@ -173,6 +173,13 @@
                 <version>${commons-fileupload.version}</version>
             </dependency>
 
+            <!--aliyun-->
+            <dependency>
+                <groupId>com.aliyun.openservices</groupId>
+                <artifactId>ons-client</artifactId>
+                <version>${ons-client.version}</version>
+            </dependency>
+
 
             <!--HttpClient-->
             <dependency>

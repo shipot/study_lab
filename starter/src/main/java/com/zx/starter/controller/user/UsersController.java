@@ -1,5 +1,6 @@
 package com.zx.starter.controller.user;
 
+import com.zx.common.rocketmq.OnsProducer;
 import com.zx.domain.po.users.Users;
 import com.zx.service.core.users.UsersService;
 import com.zx.starter.controller.aspect.AspectTest;
@@ -27,6 +28,9 @@ public class UsersController {
     @Resource
     private UsersService usersService;
 
+    @Resource
+    private OnsProducer onsProducer;
+
     @GetMapping("/getAll")
     public Future<List<Users>> selectAll(){
         CompletableFuture<List<Users>> futurePrice = new CompletableFuture<>();
@@ -41,6 +45,11 @@ public class UsersController {
     @GetMapping("/getUser")
     public Users getUser(Integer id){
         Users users = usersService.selectById(id);
+        try{
+            onsProducer.sendClusteringUserLog(users.getPassword());
+        } catch (Exception e){
+            log.error("消息发送错误"+e.getMessage());
+        }
         return users;
     }
 

@@ -4,6 +4,7 @@ server:
     context-path: /
 
 spring:
+  #########数据库配置###########
   datasource:
     druid:
       url: jdbc:mysql://localhost:3306/study_lab?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
@@ -37,11 +38,23 @@ spring:
     #数据库方式
     job-store-type: jdbc
 
-
-
-mybatis:  #mybatyis������
+    ######mybatyis######
+mybatis:
   configuration:
     default-fetch-size: 500
     default-statement-timeout: 20
 mybatis-plus:
-  mapper-locations: classpath:mapper/*.xml   #ָ��mapper�������ļ���·����mapper�ļ����µ����� xml�ļ���
+  mapper-locations: classpath:mapper/*.xml
+
+############阿里云服务配置##########
+aliyun:
+  ###########阿里云ons服务mq配置############
+  ons:
+    onsAddr: 172.16.1.160;172.16.1.170
+    producerGroupId: GID_study_producer
+    clusteringTag: clustering_tag
+    #主题和消息组配置
+    clusteringGroupId: GID_brillilab_clustering
+    studyLabTopic: study_lab_topic
+
+
