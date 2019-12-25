@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/java8/stream.java" line="34" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c83c4601-fb01-4f27-9785-0b6c2ad8ccde" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/executor/ThreadPoolExecutorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/executor/ThreadPoolExecutorTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/service/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
+    <ignored path="$PROJECT_DIR$/domain/target/" />
+    <ignored path="$PROJECT_DIR$/dao/target/" />
+    <ignored path="$PROJECT_DIR$/starter/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/study_lab$StarterApplication.ic" NAME="StarterApplication Coverage Results" MODIFIED="1567062672494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/test/test1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/starter/starter.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/service.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/domain/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/executor/ThreadPoolExecutorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>reversed</find>
+      <find>BinaryOperator</find>
+      <find>orElse</find>
+      <find>ofNullable</find>
+      <find>&lt;packaging&gt;jar&lt;/packaging&gt;</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/lambda/Apple.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/lambda/test.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/lambda/stream.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/lambda/Accumulator.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/lambda/ParallelStreams.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/lambda/ForkJoinSumCalculator.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/lambda/ParallelStreamsTset.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/lambda/行为参数化.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/diamondExtend/A.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/diamondExtend/B.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/diamondextend/A.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/diamondextend/B.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/diamondextend/C.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/diamondextend/D.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/java8/optional.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/java8/行为参数化.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/zx/domain/po/users/Users.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/zx/service/core/users/UsersService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/zx/service/core/users/impl/UsersServiceImpl.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/websocket/SocketServer.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/websocket/WebSocketConfig.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/websocket/TimeTask.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/quartz/QuartzTest.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/quartz/Test.java" />
+        <option value="$PROJECT_DIR$/starter/pom.xml" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/quartz/MyJob.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/websocket/MyWebSocket.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/java8/future.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/httpclient/HttpClientController.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/thread/Synchronized.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/thread/TestThread.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/date/localtime.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/zx/common/rocketmq/OnsProducerConfig.java" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/starter/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/zx/common/rocketmq/OnsProperties.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/user/UsersController.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/rocketMq/Consumer.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/rocketMq/handler/MessageHandler.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/rocketMq/consumer/OnsClusteringListener.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/rocketMq/consumer/OnsConsumerConfig.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/zx/common/rocketmq/OnsProducer.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/rocketmq/handler/MessageHandler.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/zx/common/rocketmq/OnsConfig.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/rocketmq/consumer/OnsConsumerConfig.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/rocketmq/consumer/OnsClusteringListener.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/rocketmq/SyncProducer/SyncProducer.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/rocketmq/SyncProducer/SyncConsumer.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/test/Test.java" />
+        <option value="$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/executor/ThreadPoolExecutorTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1905" />
+    <option name="y" value="17" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="study_lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_lab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_lab" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_lab" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_lab" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_lab" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_lab" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_lab" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_lab" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zx" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_lab" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zx" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_lab" type="462c0819:PsiDirectoryNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_lab" type="462c0819:PsiDirectoryNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_lab" type="462c0819:PsiDirectoryNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_lab" type="462c0819:PsiDirectoryNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_lab" type="462c0819:PsiDirectoryNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_lab" type="462c0819:PsiDirectoryNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_lab" type="462c0819:PsiDirectoryNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zx" type="462c0819:PsiDirectoryNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_lab" type="462c0819:PsiDirectoryNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zx" type="462c0819:PsiDirectoryNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_lab" type="462c0819:PsiDirectoryNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zx" type="462c0819:PsiDirectoryNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="executor" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576747859532" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zx.common.rocketmq" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ThreadPoolExecutorTest">
+    <configuration name="SyncConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.starter.controller.rocketmq.SyncProducer.SyncConsumer" />
+      <module name="starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.starter.controller.rocketmq.SyncProducer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SyncProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.starter.controller.rocketmq.SyncProducer.SyncProducer" />
+      <module name="starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.starter.controller.rocketmq.SyncProducer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.starter.controller.thread.TestThread" />
+      <module name="starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.starter.controller.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadPoolExecutorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.starter.controller.executor.ThreadPoolExecutorTest" />
+      <module name="starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.starter.controller.executor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="localtime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.starter.controller.date.localtime" />
+      <module name="starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.starter.controller.date.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StarterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="starter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zx.starter.main.StarterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ThreadPoolExecutorTest" />
+        <item itemvalue="Application.SyncConsumer" />
+        <item itemvalue="Application.SyncProducer" />
+        <item itemvalue="Application.localtime" />
+        <item itemvalue="Application.TestThread" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c83c4601-fb01-4f27-9785-0b6c2ad8ccde" name="Default Changelist" comment="" />
+      <created>1564102668901</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564102668901</updated>
+      <workItem from="1564102670745" duration="5433000" />
+      <workItem from="1564109187984" duration="19954000" />
+      <workItem from="1564366133121" duration="605000" />
+      <workItem from="1564447590356" duration="5545000" />
+      <workItem from="1564534736963" duration="3911000" />
+      <workItem from="1564620255429" duration="8025000" />
+      <workItem from="1564732555017" duration="5813000" />
+      <workItem from="1564987645568" duration="5060000" />
+      <workItem from="1565052677582" duration="6313000" />
+      <workItem from="1565139532880" duration="12676000" />
+      <workItem from="1565748704399" duration="10072000" />
+      <workItem from="1565832167393" duration="11061000" />
+      <workItem from="1565951771511" duration="42000" />
+      <workItem from="1566176512163" duration="1210000" />
+      <workItem from="1566263740691" duration="98000" />
+      <workItem from="1566263879365" duration="11328000" />
+      <workItem from="1566805400348" duration="2508000" />
+      <workItem from="1566870347610" duration="10828000" />
+      <workItem from="1566984653941" duration="1154000" />
+      <workItem from="1567045095144" duration="11207000" />
+      <workItem from="1567127733079" duration="7824000" />
+      <workItem from="1567385950094" duration="42839000" />
+      <workItem from="1568168999750" duration="9790000" />
+      <workItem from="1568250003573" duration="4719000" />
+      <workItem from="1568600248985" duration="1947000" />
+      <workItem from="1568798163560" duration="757000" />
+      <workItem from="1569217088972" duration="1779000" />
+      <workItem from="1569291321753" duration="8871000" />
+      <workItem from="1569392355358" duration="1214000" />
+      <workItem from="1569463199790" duration="1524000" />
+      <workItem from="1570763817437" duration="10649000" />
+      <workItem from="1571885727095" duration="5696000" />
+      <workItem from="1571917530922" duration="16371000" />
+      <workItem from="1572055459214" duration="4498000" />
+      <workItem from="1572233028860" duration="1225000" />
+      <workItem from="1572484374183" duration="232000" />
+      <workItem from="1572578670938" duration="68000" />
+      <workItem from="1572593325816" duration="7000" />
+      <workItem from="1576551412458" duration="2734000" />
+      <workItem from="1576724206610" duration="1279000" />
+      <workItem from="1577062567941" duration="2487000" />
+      <workItem from="1577149068427" duration="1191000" />
+    </task>
+    <task id="LOCAL-00001" summary="Learn HttpClient package to use.">
+      <created>1564117369423</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564117369423</updated>
+    </task>
+    <task id="LOCAL-00002" summary="learn HttpClient post for Json parameter">
+      <created>1564127667196</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564127667196</updated>
+    </task>
+    <task id="LOCAL-00003" summary="....">
+      <created>1564134349824</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564134349824</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add TestController">
+      <created>1564452898865</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564452898865</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Learn HttpClient package to use.">
+      <created>1564481286699</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564481286699</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Learn Java io to use.">
+      <created>1564620446168</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564620446168</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Learn jpa package to use.">
+      <created>1564630147826</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1564630147826</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Learn io package to use.">
+      <created>1564630761605</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1564630761605</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Learn websocket package to use.">
+      <created>1564740276146</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1564740276146</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Learn quartz to use.">
+      <created>1565762741516</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565762741516</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Learn quartz to use.">
+      <created>1565769865479</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1565769865479</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Learn quartz to use.">
+      <created>1565951792167</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1565951792167</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Learn lambda to use.">
+      <created>1567578496119</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1567578496119</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Learn websocket to use.">
+      <created>1568628754664</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1568628754664</updated>
+    </task>
+    <task id="LOCAL-00015" summary="修改端口">
+      <created>1569293885826</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1569293885826</updated>
+    </task>
+    <task id="LOCAL-00016" summary="去除定时任务">
+      <created>1569306815198</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1569306815198</updated>
+    </task>
+    <task id="LOCAL-00017" summary="修改服务器密码">
+      <created>1569309062682</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1569309062682</updated>
+    </task>
+    <task id="LOCAL-00018" summary="修改服务器密码">
+      <created>1569309985664</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1569309985664</updated>
+    </task>
+    <task id="LOCAL-00019" summary="修改服务器密码">
+      <created>1569310227728</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1569310227728</updated>
+    </task>
+    <task id="LOCAL-00020" summary="修改服务器密码">
+      <created>1569310657007</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1569310657008</updated>
+    </task>
+    <task id="LOCAL-00021" summary="略...">
+      <created>1577068875327</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1577068875327</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test_s - 2019.08.15 at 11h 28m 24s.xml">
+      <configuration name="Test.s" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_s - 2019.08.15 at 11h 30m 55s.xml">
+      <configuration name="Test.s" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2019.08.15 at 11h 31m 20s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2019.08.15 at 11h 31m 33s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_s - 2019.08.15 at 11h 36m 04s.xml">
+      <configuration name="Test.s" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_s - 2019.08.15 at 11h 48m 17s.xml">
+      <configuration name="Test.s" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_s - 2019.08.15 at 11h 51m 05s.xml">
+      <configuration name="Test.s" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="260544000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1924307" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" weight="0.37960956" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" weight="0.3275488" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Analysis" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5003032" side_tool="true" weight="0.32833335" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.4996968" weight="0.16" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.4989339" weight="0.078125" />
+      <window_info anchor="bottom" auto_hide="true" id="IntelliHeap" order="16" />
+      <window_info anchor="bottom" id="Regex Tester" order="17" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.079442084" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Jms Messenger" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32995737" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="learn HttpClient post for Json parameter" />
+    <MESSAGE value="...." />
+    <MESSAGE value="add TestController" />
+    <MESSAGE value="Learn HttpClient package to use." />
+    <MESSAGE value="Learn Java io to use." />
+    <MESSAGE value="Learn jpa package to use." />
+    <MESSAGE value="Learn io package to use." />
+    <MESSAGE value="Learn websocket package to use." />
+    <MESSAGE value="Learn quartz to use." />
+    <MESSAGE value="Learn lambda to use." />
+    <MESSAGE value="Learn websocket to use." />
+    <MESSAGE value="修改端口" />
+    <MESSAGE value="去除定时任务" />
+    <MESSAGE value="修改服务器密码" />
+    <MESSAGE value="略..." />
+    <option name="LAST_COMMIT_MESSAGE" value="略..." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>jar://$JAVA_HOME$/src.zip!/java/util/concurrent/Phaser.java</url>
+          <line>1011</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$JAVA_HOME$/src.zip!/java/util/concurrent/ForkJoinPool.java</url>
+          <line>2486</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/test/Test.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/test/Test.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/zx/common/rocketmq/OnsProducer.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="sbu" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/zx/service/core/users/impl/UsersServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/websocket/TimeTask.java" />
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/quartz/QuartzTest.java" />
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/quartz/Test.java" />
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/io/IoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-825">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-696" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/quartz/MyJob.java" />
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/serialize/SerializeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/jpa/JpaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/java8/ForkJoinSumCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/date/DateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/java8/future.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/httpclient/HttpClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/thread/TestThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1073">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/websocket/MyWebSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/websocket/WebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/date/localtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/zx/common/utils/HttpClientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2289">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/aliyun/openservices/ons-client/1.8.0.Final/ons-client-1.8.0.Final.jar!/com/aliyun/openservices/ons/api/impl/rocketmq/ProducerImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/rocketMq/Consumer.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/aliyun/openservices/ons-client/1.8.0.Final/ons-client-1.8.0.Final.jar!/com/aliyun/openservices/ons/api/Message.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2262">
+          <caret line="111" column="25" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$JAVA_HOME$/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="957" column="59" lean-forward="true" selection-start-line="957" selection-start-column="59" selection-end-line="957" selection-end-column="59" />
+          <folding>
+            <element signature="e#36393#36394#0" expanded="true" />
+            <element signature="e#36459#36460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Autowired.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="81" column="18" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/main/StarterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#562#563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/aliyun/openservices/ons-client/1.8.0.Final/ons-client-1.8.0.Final.jar!/com/aliyun/openservices/ons/api/PropertyValueConst.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/rocketmq/handler/MessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/aliyun/openservices/ons-client/1.8.0.Final/ons-client-1.8.0.Final.jar!/com/aliyun/openservices/ons/api/Producer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/zx/common/rocketmq/OnsProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/zx/common/rocketmq/OnsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/zx/common/rocketmq/OnsProducerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/zx/common/rocketmq/OnsProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/aliyun/openservices/ons-client/1.8.0.Final/ons-client-1.8.0.Final.jar!/com/aliyun/openservices/shade/com/alibaba/rocketmq/client/producer/MQProducer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/aliyun/openservices/ons-client/1.8.0.Final/ons-client-1.8.0.Final.jar!/com/aliyun/openservices/shade/com/alibaba/rocketmq/common/message/Message.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="5" column="69" lean-forward="true" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/user/UsersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1682">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/rocketmq/SyncProducer/SyncProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/aliyun/openservices/ons-client/1.8.0.Final/ons-client-1.8.0.Final.jar!/com/aliyun/openservices/shade/com/alibaba/rocketmq/client/consumer/listener/ConsumeConcurrentlyContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/aliyun/openservices/ons-client/1.8.0.Final/ons-client-1.8.0.Final.jar!/com/aliyun/openservices/shade/com/alibaba/rocketmq/client/consumer/DefaultMQPushConsumer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7888">
+          <caret line="351" column="16" selection-start-line="351" selection-start-column="16" selection-end-line="351" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/rocketmq/SyncProducer/SyncConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/rocketmq/consumer/OnsConsumerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/rocketmq/consumer/OnsClusteringListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-926">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/test/test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/starter.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/service.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/main/java/com/zx/starter/controller/executor/ThreadPoolExecutorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>starter</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

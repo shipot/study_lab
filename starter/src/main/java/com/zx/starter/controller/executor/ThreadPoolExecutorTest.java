@@ -22,7 +22,7 @@ public class ThreadPoolExecutorTest {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                System.out.println("3y终于写完了");
+                System.out.println("zx做完了");
                 countDownLatch.countDown();
 
             }
@@ -33,13 +33,13 @@ public class ThreadPoolExecutorTest {
             new Thread(new Runnable() {
                 @Override
                 public void run() {
-                    System.out.println("其他员工需要等待3y");
+                    System.out.println("其他员工需要等待zx");
                     try {
                         countDownLatch.await();
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    System.out.println("3y终于写完了，其他员工可以开始了！");
+                    System.out.println("zx终于做完了，其他员工可以开始了！");
                 }
             }).start();
         }
