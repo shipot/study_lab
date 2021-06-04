@@ -53,7 +53,7 @@
         <rocketmq.version>4.3.2</rocketmq.version>
         <guava.version>27.0.1-jre</guava.version>
         <pinyin4j.version>2.5.1</pinyin4j.version>
-        <httpclient.version>4.5.3</httpclient.version>
+        <httpclient.version>4.5.13</httpclient.version>
     </properties>
 
     <dependencyManagement>
